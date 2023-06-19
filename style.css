@@ -38,11 +38,39 @@ textarea:focus {
 #note {
   font-size: 1rem;
 }
-.addBtn {
+#addBtn {
   background-color: #f4b400;
   color: #fff;
   border: none;
   padding: 8px 12px;
   border-radius: 4px;
   font-size: 1rem;
+}
+.deleteBtn {
+  background-color: #db4437;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+#notes {
+  margin-top: 32px;
+}
+.noteCard {
+  background-color: #fff;
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(190, 190, 190);
+}
+.noteCard:hover {
+  box-shadow: 6px 5px 15px -3px rgba(0, 0, 0, 0.49);
+}
+.noteCard .noteTitle {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.noteCard .noteText {
+  font-size: 0.9rem;
 }
